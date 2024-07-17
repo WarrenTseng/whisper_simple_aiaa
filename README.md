@@ -7,7 +7,7 @@ nvcr.io/nvidia/nemo:24.05.01
 ### Steps
 1. Pull the docker image
 ```
-docker run -it --rm -p 5000:5000 --gpus=all nvcr.io/nvidia/nemo:24.05.01
+docker run -it --rm -p 5000:5000 --gpus=all --shm-size=2g -v /HOST/WORKSPACE:/workspace -w /workspace nvcr.io/nvidia/nemo:24.05.01
 ```
 2. Install the pre-requests
 ```

@@ -5,7 +5,7 @@ import time
 
 app = Flask(__name__)
 
-wa = WhisperAIAA()
+wa = WhisperAIAA(audio_folder="dataset")
 audio_path = ''
 text = ''
 text_input = 'Enter text here'
@@ -25,7 +25,7 @@ def index():
             text_display_1 = audio_path
             text_display_2 = text
             text_input = text_display_2
-            cmd = 'copy '+audio_path+' static\\audio.wav'
+            cmd = 'cp '+audio_path+' static//audio.wav'
             os.system(cmd)
             time.sleep(0.2)
         elif 'annotate' in request.form:

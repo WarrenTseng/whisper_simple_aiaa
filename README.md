@@ -1,4 +1,4 @@
-Simple implementation of the model from https://huggingface.co/openai/whisper-large-v3
+This repo is a simple implementation of the model from https://huggingface.co/openai/whisper-large-v3 for audio ai-assisted annotation
 </br>
 ### Environment
 ```

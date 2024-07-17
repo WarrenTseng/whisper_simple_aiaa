@@ -12,7 +12,7 @@ docker run -it --rm -p 5000:5000 --gpus=all --shm-size=2g -v /HOST/WORKSPACE:/wo
 2. Install the pre-requests
 ```
 pip install --upgrade pip
-pip install --upgrade git+https://github.com/huggingface/transformers.git accelerate datasets[audio]
+pip install --upgrade git+https://github.com/huggingface/transformers.git accelerate
 ```
 3. Clone this repo
 ```

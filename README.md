@@ -26,5 +26,4 @@ flask run
 5. Visit the url at http://localhost:5000
 </br>
 <a href="https://drive.google.com/file/d/1LWyi1ixUPoGWgPEcsyBtTS5m4KIaiDu0/view?usp=sharing">Demo recording</a>
-</br>
 ![](https://github.com/WarrenTseng/whisper_simple_aiaa/blob/main/animation.gif)

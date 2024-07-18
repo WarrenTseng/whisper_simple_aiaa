@@ -24,3 +24,4 @@ cd whisper_simple_aiaa
 flask run
 ```
 5. Visit the url at http://localhost:5000
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/WarrenTseng/whisper_simple_aiaa/blob/main/animation.gif))

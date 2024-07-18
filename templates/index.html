@@ -21,7 +21,7 @@
         <p>{{ text_display_2 }}</p>
     </div>
     <audio controls autoplay>
-      <source src="static/audio.wav" type="audio/wav">
+      <source src="{{ url_for('static', filename=audio_path) }}" type="audio/wav">
     Your browser does not support the audio element.
     </audio>
 </body>

@@ -5,7 +5,7 @@ This repo is a simple implementation of the model from https://huggingface.co/op
 nvcr.io/nvidia/nemo:24.05.01
 ```
 ### Steps
-1. Pull the docker image
+1. Pull the docker image and start the environment
 ```
 docker run -it --rm -p 5000:5000 --gpus=all --shm-size=2g -v /HOST/WORKSPACE:/workspace -w /workspace nvcr.io/nvidia/nemo:24.05.01
 ```

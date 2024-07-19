@@ -21,7 +21,7 @@ cd whisper_simple_aiaa
 ```
 4. Start the Flask server
 ```
-flask run
+flask run -h 0.0.0.0
 ```
 5. Visit the url at localhost:5000 (<a href="https://drive.google.com/file/d/1LWyi1ixUPoGWgPEcsyBtTS5m4KIaiDu0/view?usp=sharing">Demo recording</a>)
 ![](https://github.com/WarrenTseng/whisper_simple_aiaa/blob/main/animation.gif)

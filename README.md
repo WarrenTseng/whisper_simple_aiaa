@@ -26,4 +26,4 @@ flask run
 5. Visit the url at localhost:5000 (<a href="https://drive.google.com/file/d/1LWyi1ixUPoGWgPEcsyBtTS5m4KIaiDu0/view?usp=sharing">Demo recording</a>)
 ![](https://github.com/WarrenTseng/whisper_simple_aiaa/blob/main/animation.gif)
 
-6. The annotated files will be at the same folder as audio files
+6. The annotated files will be at the folder containing audio files

@@ -19,7 +19,7 @@ pip install --upgrade git+https://github.com/huggingface/transformers.git accele
 git clone https://github.com/WarrenTseng/whisper_simple_aiaa
 cd whisper_simple_aiaa
 ```
-4. Start the Flask server
+4. Move your data into the **`dataset`** folder, then start the Flask server
 ```
 flask run -h 0.0.0.0
 ```
